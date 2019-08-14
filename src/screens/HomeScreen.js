@@ -22,14 +22,14 @@ const HomeScreen = ({ navigation }) => {
 				title="Go to Color Demo"
 				onPress={() => navigation.navigate("Color")}
 			/>
+			<Button
+				title="Go to Square"
+				onPress={() => navigation.navigate("Square")}
+			/>
 		</View>
 	);
 };
 
-const styles = StyleSheet.create({
-	text: {
-		fontSize: 30
-	}
-});
+const styles = StyleSheet.create({});
 
 export default HomeScreen;
