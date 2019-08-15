@@ -3,6 +3,7 @@ import { StyleSheet, View } from "react-native";
 import ColorCounter from "../components/ColorCounter";
 
 // FUNCTIONAL EXAMPLE WITH HOOKS AND SWITCH
+
 const COLOR_INCREMENT = 30;
 
 const SquareScreen = () => {
