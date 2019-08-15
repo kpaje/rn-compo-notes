@@ -13,10 +13,6 @@ const CounterScreen = ({}) => {
 	);
 };
 
-const styles = StyleSheet.create({
-	text: {
-		fontSize: 30
-	}
-});
+const styles = StyleSheet.create({});
 
 export default CounterScreen;

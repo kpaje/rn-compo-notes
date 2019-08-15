@@ -30,7 +30,7 @@ const ListScreen = () => {
 
 const styles = StyleSheet.create({
 	text: {
-		marginVertical: 70
+		marginVertical: 50
 	}
 });
 
