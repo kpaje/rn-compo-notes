@@ -11,7 +11,7 @@ const SquareScreen = () => {
 
 	const setColor = (color, change) => {
 		// color === 'red', 'green','blue'
-		// change === +15, -15
+		// change === +30, -30
 
 		switch (color) {
 			case "red":
