@@ -17,7 +17,6 @@ const reducer = (state, action) => {
 
 const CounterScreen = ({}) => {
 	const [state, dispatch] = useReducer(reducer, { count: 0 });
-	const { count } = state;
 
 	return (
 		<View>
@@ -29,7 +28,7 @@ const CounterScreen = ({}) => {
 				title="Decrease"
 				onPress={() => dispatch({ type: "decrement", payload: 1 })}
 			/>
-			<Text>Current Count: {count}</Text>
+			<Text>Current Count: {state.count}</Text>
 		</View>
 	);
 };
